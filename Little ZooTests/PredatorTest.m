@@ -39,12 +39,12 @@
 
     BOOL result = [predator feed:food];
 
-    XCTAssert(result, @"Pass");
+    XCTAssert(result, @"Predator eat meat");
 
     Vegetables *carrot = [[Vegetables alloc] init];
     result = [predator feed:carrot];
 
-    XCTAssertFalse(result, @"Pretator not eating vegetables");
+    XCTAssertFalse(result, @"Predator not eating vegetables");
 }
 
 - (void)testPerformanceExample {
