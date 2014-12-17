@@ -4,6 +4,7 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "Measurable.h"
 
 typedef NS_ENUM(int, FoodType){
     FoodType_Grass,
@@ -11,7 +12,7 @@ typedef NS_ENUM(int, FoodType){
     FoodType_Other,
 };
 
-@protocol Food <NSObject>
+@protocol Food <Measurable>
 
 @property(nonatomic, readonly) FoodType type;
 //@property(nonatomic) size;

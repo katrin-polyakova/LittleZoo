@@ -4,11 +4,8 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "Animal.h"
+#import "BaseAnimal.h"
 
 
-@interface Grazing : NSObject<Animal>
-
-
-
+@interface Grazing : BaseAnimal
 @end

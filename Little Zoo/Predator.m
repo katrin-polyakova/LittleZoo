@@ -5,7 +5,6 @@
 
 #import "Predator.h"
 #import "D3Size.h"
-#import "Food.h"
 
 @implementation Predator {
 
@@ -30,7 +29,10 @@
 
 
 - (BOOL)feed:(id <Food>)food {
-    return food.type == FoodType_Meat;
+    BOOL result;
+    if ([super feed:food])
+        result = food.type == FoodType_Meat;
+    return result;
 }
 
 - (BOOL)play:(id)toy {

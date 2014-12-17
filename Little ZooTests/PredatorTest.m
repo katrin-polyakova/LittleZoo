@@ -47,6 +47,25 @@
     XCTAssertFalse(result, @"Predator not eating vegetables");
 }
 
+-(void)testFeed_self{
+    D3Size *size = [[D3Size alloc] initWithHeight:@(10) width:@(27) lenght:@(89)];
+    Predator *predator = [Predator predatorWithWeight:@(100) size:size];
+
+    BOOL  result = [predator feed:predator];
+
+    XCTAssertFalse(result, @"Predator can't eat itself");
+}
+
+//- (void)testFeed_otherBigAnimal {
+//    D3Size *size = [[D3Size alloc] initWithHeight:@(10) width:@(27) lenght:@(89)];
+//    Predator *predator = [Predator predatorWithWeight:@(100) size:size];
+//    BaseAnimal *bigAnimal = [BaseAnimal ]
+//
+//    BOOL  result = [predator feed:bigAnimal];
+//
+//    XCTAssertFalse(result, @"Predator can't eat itself");
+//}
+
 - (void)testPerformanceExample {
     // This is an example of a performance test case.
     [self measureBlock:^{

@@ -7,11 +7,5 @@
 
 
 @implementation Rabbit {
-
-
 }
-- (FoodType)type {
-    return FoodType_Meat;
-}
-
 @end
