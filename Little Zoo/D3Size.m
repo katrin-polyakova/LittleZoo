@@ -10,24 +10,24 @@
 #import "Food.h"
 
 @implementation D3Size
-- (instancetype)initWithHeight:(NSNumber *)height width:(NSNumber *)width lenght:(NSNumber *)lenght {
+- (instancetype)initWithHeight:(NSNumber *)height width:(NSNumber *)width length:(NSNumber *)length {
     self = [super init];
     if (self) {
         self.height = height;
         self.width = width;
-        self.lenght = lenght;
+        self.length = length;
     }
 
     return self;
 }
 
-+ (instancetype)sizeWithHeight:(NSNumber *)height width:(NSNumber *)width lenght:(NSNumber *)lenght {
-    return [[self alloc] initWithHeight:height width:width lenght:lenght];
++ (instancetype)sizeWithHeight:(NSNumber *)height width:(NSNumber *)width length:(NSNumber *)length {
+    return [[self alloc] initWithHeight:height width:width length:length];
 }
 
 - (NSNumber *)volume {
 
-    NSNumber *result = @(self.height.intValue * self.lenght.intValue * self.width.intValue);
+    NSNumber *result = @(self.height.intValue * self.length.intValue * self.width.intValue);
     return result;
 }
 
@@ -35,13 +35,12 @@
     D3Size *copy = [[[self class] allocWithZone:zone] init];
 
     if (copy != nil) {
-        copy.height = self.height;
-        copy.width = self.width;
-        copy.lenght = self.lenght;
+        copy.height = [self.height copy];
+        copy.width = [self.width copy];
+        copy.length = [self.length copy];
     }
 
     return copy;
 }
-
 
 @end

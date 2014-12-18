@@ -4,6 +4,7 @@
 //
 
 #import "BaseAnimal.h"
+#import "D3Size.h"
 
 
 @implementation BaseAnimal {
@@ -11,6 +12,20 @@
 }
 @synthesize weight = _weight;
 @synthesize size = _size;
+
+- (instancetype)initWithWeight:(NSNumber *)weight size:(D3Size *)size {
+    self = [super init];
+    if (self) {
+        _weight = weight;
+        _size = size;
+    }
+
+    return self;
+}
+
++ (instancetype)animalWithWeight:(NSNumber *)weight size:(D3Size *)size {
+    return [[self alloc] initWithWeight:weight size:size];
+}
 
 - (FoodType)type {
     return FoodType_Meat;

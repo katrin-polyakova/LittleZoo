@@ -6,11 +6,7 @@
 #import "Grazing.h"
 
 @implementation Grazing{
-
 }
-
-@synthesize weight = _weight;
-@synthesize size = _size;
 
 - (BOOL)feed:(id <Food>)food {
     return NO;

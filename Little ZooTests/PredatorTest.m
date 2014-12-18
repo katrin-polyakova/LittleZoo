@@ -30,12 +30,12 @@
 }
 
 - (void)testFeed {
-    D3Size *size = [[D3Size alloc] initWithHeight:@(10) width:@(27) lenght:@(89)];
-    Predator *predator = [Predator predatorWithWeight:@(100) size:size];
+    D3Size *size = [[D3Size alloc] initWithHeight:@(10) width:@(27) length:@(89)];
+    Predator *predator = [Predator animalWithWeight:@(100) size:size];
 
     Rabbit *food = [[Rabbit alloc] init];
     food.weight = @(3);
-    food.size = [D3Size sizeWithHeight:@(30) width:@(20) lenght:@(50)];
+    food.size = [D3Size sizeWithHeight:@(30) width:@(20) length:@(50)];
 
     BOOL result = [predator feed:food];
 
@@ -48,23 +48,26 @@
 }
 
 -(void)testFeed_self{
-    D3Size *size = [[D3Size alloc] initWithHeight:@(10) width:@(27) lenght:@(89)];
-    Predator *predator = [Predator predatorWithWeight:@(100) size:size];
+    D3Size *size = [[D3Size alloc] initWithHeight:@(10) width:@(27) length:@(89)];
+    Predator *predator = [Predator animalWithWeight:@(100) size:size];
 
     BOOL  result = [predator feed:predator];
 
     XCTAssertFalse(result, @"Predator can't eat itself");
 }
 
-//- (void)testFeed_otherBigAnimal {
-//    D3Size *size = [[D3Size alloc] initWithHeight:@(10) width:@(27) lenght:@(89)];
-//    Predator *predator = [Predator predatorWithWeight:@(100) size:size];
-//    BaseAnimal *bigAnimal = [BaseAnimal ]
-//
-//    BOOL  result = [predator feed:bigAnimal];
-//
-//    XCTAssertFalse(result, @"Predator can't eat itself");
-//}
+- (void)testFeed_otherBigAnimal {
+    D3Size *sizePredator = [[D3Size alloc] initWithHeight:@(5) width:@(7) length:@(18)];
+    Predator *predator = [Predator animalWithWeight:@(100) size:sizePredator];
+
+    BaseAnimal *bigAnimal = [[BaseAnimal alloc] init];
+    bigAnimal.weight = @(210);
+    bigAnimal.size = [D3Size sizeWithHeight:@(10) width:@(6) length:@(23)];
+
+    BOOL  result = [predator feed:bigAnimal];
+
+    XCTAssertFalse(result, @"The animal is too big for predator");
+}
 
 - (void)testPerformanceExample {
     // This is an example of a performance test case.

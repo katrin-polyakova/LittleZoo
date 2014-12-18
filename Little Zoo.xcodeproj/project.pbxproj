@@ -17,6 +17,7 @@
 		321E4E674D838878E797938D /* Vegetables.m in Sources */ = {isa = PBXBuildFile; fileRef = 321E4407441BDC8C3D49690A /* Vegetables.m */; };
 		321E4FC6C097667499806848 /* BaseAnimal.m in Sources */ = {isa = PBXBuildFile; fileRef = 321E4343C4C27B4D299FCD51 /* BaseAnimal.m */; };
 		321E4FEB7B8B9D5A5ED4D815 /* Vegetables.m in Sources */ = {isa = PBXBuildFile; fileRef = 321E4407441BDC8C3D49690A /* Vegetables.m */; };
+		4456080C1A43263B00D903CF /* GrazingTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 4456080B1A43263B00D903CF /* GrazingTest.m */; };
 		44DBA9411A3D899B002E110A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 44DBA9401A3D899B002E110A /* main.m */; };
 		44DBA9441A3D899B002E110A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 44DBA9431A3D899B002E110A /* AppDelegate.m */; };
 		44DBA9471A3D899B002E110A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 44DBA9461A3D899B002E110A /* ViewController.m */; };
@@ -52,6 +53,7 @@
 		321E4E2B1E42ADC8350444B2 /* Grazing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Grazing.h; sourceTree = "<group>"; };
 		321E4F179E14B600B0495615 /* BaseAnimal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseAnimal.h; sourceTree = "<group>"; };
 		321E4FB2C383E54A009A991D /* Rabbit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Rabbit.m; sourceTree = "<group>"; };
+		4456080B1A43263B00D903CF /* GrazingTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GrazingTest.m; sourceTree = "<group>"; };
 		44DBA93B1A3D899A002E110A /* Little Zoo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Little Zoo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		44DBA93F1A3D899B002E110A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		44DBA9401A3D899B002E110A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -164,6 +166,7 @@
 				44DBA95A1A3D899B002E110A /* Little_ZooTests.m */,
 				44DBA9581A3D899B002E110A /* Supporting Files */,
 				44DBA96A1A3DA073002E110A /* PredatorTest.m */,
+				4456080B1A43263B00D903CF /* GrazingTest.m */,
 			);
 			path = "Little ZooTests";
 			sourceTree = "<group>";
@@ -321,6 +324,7 @@
 			files = (
 				44DBA95B1A3D899B002E110A /* Little_ZooTests.m in Sources */,
 				44DBA96B1A3DA073002E110A /* PredatorTest.m in Sources */,
+				4456080C1A43263B00D903CF /* GrazingTest.m in Sources */,
 				321E4E04DDCBA1C4882E87E4 /* Grazing.m in Sources */,
 				321E4969D02C68038BBC7FE6 /* Predator.m in Sources */,
 				321E440D4DEABE1CDF1D7827 /* Rabbit.m in Sources */,

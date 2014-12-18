@@ -10,13 +10,13 @@
 
 @property (nonatomic, strong) NSNumber* height;
 @property (nonatomic, strong) NSNumber* width;
-@property (nonatomic, strong) NSNumber* lenght;
+@property (nonatomic, strong) NSNumber* length;
 
-- (instancetype)initWithHeight:(NSNumber *)height width:(NSNumber *)width lenght:(NSNumber *)lenght;
+- (instancetype)initWithHeight:(NSNumber *)height width:(NSNumber *)width length:(NSNumber *)length;
 
 - (id)copyWithZone:(NSZone *)zone;
 
-+ (instancetype)sizeWithHeight:(NSNumber *)height width:(NSNumber *)width lenght:(NSNumber *)lenght;
++ (instancetype)sizeWithHeight:(NSNumber *)height width:(NSNumber *)width length:(NSNumber *)length;
 
 -(NSNumber *)volume;
 

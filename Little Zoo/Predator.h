@@ -9,7 +9,5 @@
 @class D3Size;
 
 @interface Predator : BaseAnimal
-- (instancetype)initWithWeight:(NSNumber *)weight size:(D3Size *)size;
 
-+ (instancetype)predatorWithWeight:(NSNumber *)weight size:(D3Size *)size;
 @end
