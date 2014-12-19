@@ -20,7 +20,8 @@ int main(int argc, char * argv[]) {
         BaseAnimal *bigAnimal = [[BaseAnimal alloc] init];
         bigAnimal.weight = @(21);
         bigAnimal.size = [D3Size sizeWithHeight:@(10) width:@(6) length:@(23)];
-        NSLog(@"\n%d\n%d", [bigAnimal.size volume].intValue, [predator.size volume].intValue);
+        float difr = [bigAnimal.size volume].floatValue/[predator.size volume].floatValue;
+        NSLog(@"\n%d\n%d\n%g", [bigAnimal.size volume].intValue, [predator.size volume].intValue, difr);
         
         return UIApplicationMain(argc, argv, nil, NSStringFromClass([AppDelegate class]));
     }

@@ -8,4 +8,5 @@
 
 
 @interface Grazing : BaseAnimal
+
 @end

@@ -10,6 +10,8 @@
 		321E411DFDC289BBF3A92CBC /* BaseAnimal.m in Sources */ = {isa = PBXBuildFile; fileRef = 321E4343C4C27B4D299FCD51 /* BaseAnimal.m */; };
 		321E440D4DEABE1CDF1D7827 /* Rabbit.m in Sources */ = {isa = PBXBuildFile; fileRef = 321E4FB2C383E54A009A991D /* Rabbit.m */; };
 		321E46BED8077279468D738E /* Rabbit.m in Sources */ = {isa = PBXBuildFile; fileRef = 321E4FB2C383E54A009A991D /* Rabbit.m */; };
+		321E47B51C36DA5F8F866E38 /* Cable.m in Sources */ = {isa = PBXBuildFile; fileRef = 321E4CE8FE833E361FB37CF1 /* Cable.m */; };
+		321E484D80AF85E784CF899D /* Cable.m in Sources */ = {isa = PBXBuildFile; fileRef = 321E4CE8FE833E361FB37CF1 /* Cable.m */; };
 		321E491C282FD04A33130213 /* Grazing.m in Sources */ = {isa = PBXBuildFile; fileRef = 321E41814ED0922740E88728 /* Grazing.m */; };
 		321E4969D02C68038BBC7FE6 /* Predator.m in Sources */ = {isa = PBXBuildFile; fileRef = 321E49DF7E2CBEC1497837EA /* Predator.m */; };
 		321E4B48BFD433867FAAF63B /* Predator.m in Sources */ = {isa = PBXBuildFile; fileRef = 321E49DF7E2CBEC1497837EA /* Predator.m */; };
@@ -49,9 +51,11 @@
 		321E46138863D28D2A6B3DB2 /* Vegetables.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Vegetables.h; sourceTree = "<group>"; };
 		321E47D102CA2DA96336BE5B /* Measurable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Measurable.h; sourceTree = "<group>"; };
 		321E49DF7E2CBEC1497837EA /* Predator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Predator.m; sourceTree = "<group>"; };
+		321E4CE8FE833E361FB37CF1 /* Cable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Cable.m; sourceTree = "<group>"; };
 		321E4D9C81524B8A20BB769A /* Food.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Food.h; sourceTree = "<group>"; };
 		321E4E2B1E42ADC8350444B2 /* Grazing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Grazing.h; sourceTree = "<group>"; };
 		321E4F179E14B600B0495615 /* BaseAnimal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseAnimal.h; sourceTree = "<group>"; };
+		321E4F3514C76F7A56D9B7D0 /* Cable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Cable.h; sourceTree = "<group>"; };
 		321E4FB2C383E54A009A991D /* Rabbit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Rabbit.m; sourceTree = "<group>"; };
 		4456080B1A43263B00D903CF /* GrazingTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GrazingTest.m; sourceTree = "<group>"; };
 		44DBA93B1A3D899A002E110A /* Little Zoo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Little Zoo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -90,6 +94,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		321E420B3450D257EB527066 /* Uneatable */ = {
+			isa = PBXGroup;
+			children = (
+				321E4F3514C76F7A56D9B7D0 /* Cable.h */,
+				321E4CE8FE833E361FB37CF1 /* Cable.m */,
+			);
+			name = Uneatable;
+			sourceTree = "<group>";
+		};
 		321E46F30FBC72A6A9E0FA7B /* Grass */ = {
 			isa = PBXGroup;
 			children = (
@@ -188,6 +201,7 @@
 				321E47D102CA2DA96336BE5B /* Measurable.h */,
 				321E47E366EACEE33502CD92 /* Animals */,
 				321E46F30FBC72A6A9E0FA7B /* Grass */,
+				321E420B3450D257EB527066 /* Uneatable */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -315,6 +329,7 @@
 				321E46BED8077279468D738E /* Rabbit.m in Sources */,
 				321E4E674D838878E797938D /* Vegetables.m in Sources */,
 				321E411DFDC289BBF3A92CBC /* BaseAnimal.m in Sources */,
+				321E484D80AF85E784CF899D /* Cable.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -330,6 +345,7 @@
 				321E440D4DEABE1CDF1D7827 /* Rabbit.m in Sources */,
 				321E4FEB7B8B9D5A5ED4D815 /* Vegetables.m in Sources */,
 				321E4FC6C097667499806848 /* BaseAnimal.m in Sources */,
+				321E47B51C36DA5F8F866E38 /* Cable.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
