@@ -7,6 +7,13 @@
 #import "BaseAnimal.h"
 
 
-@interface Grazing : BaseAnimal
+@interface Grazing : BaseAnimal <NSCopying>
+- (id)copyWithZone:(NSZone *)zone;
+
+- (BOOL)isEqual:(id)other;
+
+- (BOOL)isEqualToGrazing:(Grazing *)grazing;
+
+- (NSUInteger)hash;
 
 @end

@@ -66,8 +66,22 @@
 
     BOOL  result = [predator feed:bigAnimal];
 
-    XCTAssertFalse(result, @"The animal is too big for predator");
+    XCTAssertFalse(result, @"The food is too big for predator");
 }
+
+- (void)testIntegrity {
+    D3Size *size = [[D3Size alloc] initWithHeight:@(10) width:@(27) length:@(89)];
+    Predator *predator1 = [Predator animalWithWeight:@(100) size:size];
+    size.height = @(155);
+    Predator *predator2 = [Predator animalWithWeight:@(100) size:size];
+
+XCTAssertEqualObjects(predator1, predator2, @"Objects are equale, but shoud not be");
+
+    NSLog(@"predator1 %@", predator1);
+    NSLog(@"predator2 %@", predator2);
+    //BOOL result =
+}
+
 
 - (void)testPerformanceExample {
     // This is an example of a performance test case.

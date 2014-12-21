@@ -36,4 +36,30 @@
     return NO;
 }
 
+- (id)copyWithZone:(NSZone *)zone {
+    return [[[self class] allocWithZone:zone] init];
+}
+
+- (BOOL)isEqual:(id)other {
+    if (other == self)
+        return YES;
+    if (!other || ![[other class] isEqual:[self class]])
+        return NO;
+
+    return [self isEqualToGrazing:other];
+}
+
+- (BOOL)isEqualToGrazing:(Grazing *)grazing {
+    if (self == grazing)
+        return YES;
+    if (grazing == nil)
+        return NO;
+    return YES;
+}
+
+- (NSUInteger)hash {
+    return [super hash];
+}
+
+
 @end

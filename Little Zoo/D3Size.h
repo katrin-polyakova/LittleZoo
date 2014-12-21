@@ -14,10 +14,13 @@
 
 - (instancetype)initWithHeight:(NSNumber *)height width:(NSNumber *)width length:(NSNumber *)length;
 
-- (id)copyWithZone:(NSZone *)zone;
-
 + (instancetype)sizeWithHeight:(NSNumber *)height width:(NSNumber *)width length:(NSNumber *)length;
 
 -(NSNumber *)volume;
+
+- (id)copyWithZone:(NSZone *)zone;
+- (BOOL)isEqual:(id)other;
+- (BOOL)isEqualToSize:(D3Size *)size;
+- (NSUInteger)hash;
 
 @end
