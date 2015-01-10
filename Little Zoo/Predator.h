@@ -6,7 +6,7 @@
 #import <Foundation/Foundation.h>
 #import "BaseAnimal.h"
 
-@class D3Size;
+//@class D3Size;
 
 @interface Predator : BaseAnimal <NSCopying>
 

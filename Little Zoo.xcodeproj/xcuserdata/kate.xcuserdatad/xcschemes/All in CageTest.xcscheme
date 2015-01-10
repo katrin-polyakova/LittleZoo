@@ -35,13 +35,7 @@
                   Identifier = "Little_ZooTests">
                </Test>
                <Test
-                  Identifier = "PredatorTest/testFeed_otherBigAnimal">
-               </Test>
-               <Test
-                  Identifier = "PredatorTest/testFeed_self">
-               </Test>
-               <Test
-                  Identifier = "PredatorTest/testPerformanceExample">
+                  Identifier = "PredatorTest">
                </Test>
             </SkippedTests>
          </TestableReference>

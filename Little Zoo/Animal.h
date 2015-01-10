@@ -13,6 +13,9 @@
 
 @protocol Animal <Measurable>
 
+@property (nonatomic, copy) NSString *species;
+@property (nonatomic, copy) NSString *name;
+
 -(BOOL)feed:(id<Food>)food;
 -(BOOL)play:(id)toy;
 

@@ -29,10 +29,19 @@
             </BuildableReference>
             <SkippedTests>
                <Test
+                  Identifier = "CageTest/testAddAnimal">
+               </Test>
+               <Test
+                  Identifier = "CageTest/testPerformanceExample">
+               </Test>
+               <Test
                   Identifier = "GrazingTest">
                </Test>
                <Test
                   Identifier = "Little_ZooTests">
+               </Test>
+               <Test
+                  Identifier = "PredatorTest">
                </Test>
             </SkippedTests>
          </TestableReference>

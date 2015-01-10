@@ -29,6 +29,9 @@
             </BuildableReference>
             <SkippedTests>
                <Test
+                  Identifier = "CageTest">
+               </Test>
+               <Test
                   Identifier = "Little_ZooTests">
                </Test>
                <Test

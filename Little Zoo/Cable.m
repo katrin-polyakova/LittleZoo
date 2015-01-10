@@ -32,5 +32,4 @@
     return FoodType_Other;
 }
 
-
 @end

@@ -14,12 +14,15 @@
 		321E484D80AF85E784CF899D /* Cable.m in Sources */ = {isa = PBXBuildFile; fileRef = 321E4CE8FE833E361FB37CF1 /* Cable.m */; };
 		321E491C282FD04A33130213 /* Grazing.m in Sources */ = {isa = PBXBuildFile; fileRef = 321E41814ED0922740E88728 /* Grazing.m */; };
 		321E4969D02C68038BBC7FE6 /* Predator.m in Sources */ = {isa = PBXBuildFile; fileRef = 321E49DF7E2CBEC1497837EA /* Predator.m */; };
+		321E4B0B59FC25AE23DB7B02 /* Cage.m in Sources */ = {isa = PBXBuildFile; fileRef = 321E459E3567C45F965125CC /* Cage.m */; };
 		321E4B48BFD433867FAAF63B /* Predator.m in Sources */ = {isa = PBXBuildFile; fileRef = 321E49DF7E2CBEC1497837EA /* Predator.m */; };
 		321E4E04DDCBA1C4882E87E4 /* Grazing.m in Sources */ = {isa = PBXBuildFile; fileRef = 321E41814ED0922740E88728 /* Grazing.m */; };
 		321E4E674D838878E797938D /* Vegetables.m in Sources */ = {isa = PBXBuildFile; fileRef = 321E4407441BDC8C3D49690A /* Vegetables.m */; };
 		321E4FC6C097667499806848 /* BaseAnimal.m in Sources */ = {isa = PBXBuildFile; fileRef = 321E4343C4C27B4D299FCD51 /* BaseAnimal.m */; };
 		321E4FEB7B8B9D5A5ED4D815 /* Vegetables.m in Sources */ = {isa = PBXBuildFile; fileRef = 321E4407441BDC8C3D49690A /* Vegetables.m */; };
 		4456080C1A43263B00D903CF /* GrazingTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 4456080B1A43263B00D903CF /* GrazingTest.m */; };
+		44D263C11A46DB0800AB12A9 /* CageTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 44D263C01A46DB0800AB12A9 /* CageTest.m */; };
+		44D263C21A46DB7100AB12A9 /* Cage.m in Sources */ = {isa = PBXBuildFile; fileRef = 321E459E3567C45F965125CC /* Cage.m */; };
 		44DBA9411A3D899B002E110A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 44DBA9401A3D899B002E110A /* main.m */; };
 		44DBA9441A3D899B002E110A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 44DBA9431A3D899B002E110A /* AppDelegate.m */; };
 		44DBA9471A3D899B002E110A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 44DBA9461A3D899B002E110A /* ViewController.m */; };
@@ -48,8 +51,10 @@
 		321E4407441BDC8C3D49690A /* Vegetables.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Vegetables.m; sourceTree = "<group>"; };
 		321E44524C7AD7C1CE7A762D /* Animal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Animal.h; sourceTree = "<group>"; };
 		321E45003E8D56BFECEC8E0B /* Predator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Predator.h; sourceTree = "<group>"; };
+		321E459E3567C45F965125CC /* Cage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Cage.m; sourceTree = "<group>"; };
 		321E46138863D28D2A6B3DB2 /* Vegetables.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Vegetables.h; sourceTree = "<group>"; };
 		321E47D102CA2DA96336BE5B /* Measurable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Measurable.h; sourceTree = "<group>"; };
+		321E48B2B161A72A3D18CF1C /* Cage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Cage.h; sourceTree = "<group>"; };
 		321E49DF7E2CBEC1497837EA /* Predator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Predator.m; sourceTree = "<group>"; };
 		321E4CE8FE833E361FB37CF1 /* Cable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Cable.m; sourceTree = "<group>"; };
 		321E4D9C81524B8A20BB769A /* Food.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Food.h; sourceTree = "<group>"; };
@@ -58,6 +63,7 @@
 		321E4F3514C76F7A56D9B7D0 /* Cable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Cable.h; sourceTree = "<group>"; };
 		321E4FB2C383E54A009A991D /* Rabbit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Rabbit.m; sourceTree = "<group>"; };
 		4456080B1A43263B00D903CF /* GrazingTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GrazingTest.m; sourceTree = "<group>"; };
+		44D263C01A46DB0800AB12A9 /* CageTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CageTest.m; sourceTree = "<group>"; };
 		44DBA93B1A3D899A002E110A /* Little Zoo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Little Zoo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		44DBA93F1A3D899B002E110A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		44DBA9401A3D899B002E110A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -180,6 +186,7 @@
 				44DBA9581A3D899B002E110A /* Supporting Files */,
 				44DBA96A1A3DA073002E110A /* PredatorTest.m */,
 				4456080B1A43263B00D903CF /* GrazingTest.m */,
+				44D263C01A46DB0800AB12A9 /* CageTest.m */,
 			);
 			path = "Little ZooTests";
 			sourceTree = "<group>";
@@ -202,6 +209,8 @@
 				321E47E366EACEE33502CD92 /* Animals */,
 				321E46F30FBC72A6A9E0FA7B /* Grass */,
 				321E420B3450D257EB527066 /* Uneatable */,
+				321E459E3567C45F965125CC /* Cage.m */,
+				321E48B2B161A72A3D18CF1C /* Cage.h */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -330,6 +339,7 @@
 				321E4E674D838878E797938D /* Vegetables.m in Sources */,
 				321E411DFDC289BBF3A92CBC /* BaseAnimal.m in Sources */,
 				321E484D80AF85E784CF899D /* Cable.m in Sources */,
+				321E4B0B59FC25AE23DB7B02 /* Cage.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -341,10 +351,12 @@
 				44DBA96B1A3DA073002E110A /* PredatorTest.m in Sources */,
 				4456080C1A43263B00D903CF /* GrazingTest.m in Sources */,
 				321E4E04DDCBA1C4882E87E4 /* Grazing.m in Sources */,
+				44D263C21A46DB7100AB12A9 /* Cage.m in Sources */,
 				321E4969D02C68038BBC7FE6 /* Predator.m in Sources */,
 				321E440D4DEABE1CDF1D7827 /* Rabbit.m in Sources */,
 				321E4FEB7B8B9D5A5ED4D815 /* Vegetables.m in Sources */,
 				321E4FC6C097667499806848 /* BaseAnimal.m in Sources */,
+				44D263C11A46DB0800AB12A9 /* CageTest.m in Sources */,
 				321E47B51C36DA5F8F866E38 /* Cable.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -461,6 +473,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "Little Zoo/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -471,6 +484,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "Little Zoo/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";

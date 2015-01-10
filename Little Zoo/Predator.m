@@ -41,9 +41,7 @@
 - (BOOL)isEqualToPredator:(Predator *)predator {
     if (self == predator)
         return YES;
-    if (predator == nil)
-        return NO;
-    return YES;
+    return predator != nil;
 }
 
 - (NSUInteger)hash {

@@ -37,7 +37,15 @@
 }
 
 - (id)copyWithZone:(NSZone *)zone {
-    return [[[self class] allocWithZone:zone] init];
+    Grazing *copy = [[[self class] allocWithZone:zone] init];
+
+    if (copy != nil) {
+        copy.weight = self.weight;
+        copy.size = self.size;
+        copy.species = self.species;
+        copy.name = self.name;}
+
+    return copy;
 }
 
 - (BOOL)isEqual:(id)other {
@@ -52,9 +60,7 @@
 - (BOOL)isEqualToGrazing:(Grazing *)grazing {
     if (self == grazing)
         return YES;
-    if (grazing == nil)
-        return NO;
-    return YES;
+    return grazing != nil;
 }
 
 - (NSUInteger)hash {

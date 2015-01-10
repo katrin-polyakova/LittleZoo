@@ -10,6 +10,6 @@
 @protocol Measurable <NSObject>
 
 @property (nonatomic, strong) NSNumber* weight;
-@property (nonatomic, strong) D3Size* size;
+@property (nonatomic, copy) D3Size* size;
 
 @end

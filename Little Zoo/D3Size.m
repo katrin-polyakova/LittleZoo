@@ -7,7 +7,6 @@
 //
 
 #import "D3Size.h"
-#import "Food.h"
 
 @implementation D3Size
 - (instancetype)initWithHeight:(NSNumber *)height width:(NSNumber *)width length:(NSNumber *)length {
@@ -71,6 +70,12 @@
     hash = hash * 31u + [self.width hash];
     hash = hash * 31u + [self.length hash];
     return hash;
+}
+
+- (NSString *)description{
+    NSMutableString *description = [NSMutableString stringWithFormat:@"height:%@, width:%@, length:%@",
+                    self.height, self.width, self.length];
+    return description;
 }
 
 

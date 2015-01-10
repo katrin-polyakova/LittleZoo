@@ -9,9 +9,26 @@
 
 @class D3Size;
 
-@interface BaseAnimal : NSObject<Animal, Food>
-- (instancetype)initWithWeight:(NSNumber *)weight size:(D3Size *)size;
+@interface BaseAnimal : NSObject<Animal, Food, NSCopying>
 
+// Designated initializer
+- (instancetype)initWithWeight:(NSNumber *)weight size:(D3Size *)size species:(NSString *)species name:(NSString *)name;
++ (instancetype)animalWithWeight:(NSNumber *)weight size:(D3Size *)size species:(NSString *)species name:(NSString *)name;
+
+- (instancetype)initWithWeight:(NSNumber *)weight size:(D3Size *)size;
 + (instancetype)animalWithWeight:(NSNumber *)weight size:(D3Size *)size;
+
+- (instancetype)initWithSpecies:(NSString *)species name:(NSString *)name;
++ (instancetype)animalWithSpecies:(NSString *)species name:(NSString *)name;
+
+//- (void)prettyPrint;
+
+- (id)copyWithZone:(NSZone *)zone;
+- (BOOL)isEqual:(id)other;
+- (BOOL)isEqualToAnimal:(BaseAnimal *)animal;
+- (NSUInteger)hash;
+
+- (NSString *)description;
+
 
 @end

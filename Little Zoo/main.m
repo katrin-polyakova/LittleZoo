@@ -23,6 +23,18 @@ int main(int argc, char * argv[]) {
         float difr = [bigAnimal.size volume].floatValue/[predator.size volume].floatValue;
         NSLog(@"\n%d\n%d\n%g", [bigAnimal.size volume].intValue, [predator.size volume].intValue, difr);
         
-        return UIApplicationMain(argc, argv, nil, NSStringFromClass([AppDelegate class]));
+        D3Size *size = [[D3Size alloc] initWithHeight:@(10) width:@(27) length:@(89)];
+        NSLog(@"%@", [size description]);
+        Predator *predator1 = [Predator animalWithWeight:@(100) size:size species:@("Tiger") name:@("Fluffy")];
+        Predator *predator2 = [Predator animalWithWeight:@(100) size:size];
+        
+        predator1.size = size;
+        size.height = @(155);
+        predator2.size = size;
+        
+        NSLog(@"\npredator1 %@", predator1);
+        NSLog(@"\npredator2 %@", predator2);
+        
+        return  UIApplicationMain(argc, argv, nil, NSStringFromClass([AppDelegate class]));
     }
 }

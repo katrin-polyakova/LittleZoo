@@ -23,4 +23,6 @@
 - (BOOL)isEqualToSize:(D3Size *)size;
 - (NSUInteger)hash;
 
+- (NSString *)description;
+
 @end
