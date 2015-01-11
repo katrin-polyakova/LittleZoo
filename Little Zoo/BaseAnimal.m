@@ -57,13 +57,6 @@
     return NO;
 }
 
-//- (void)prettyPrint{
-//    for(id<Animal> animal in self.animals){
-//
-//    }
-//
-//}
-
 - (NSString *)description
 {
     NSMutableString *description = [NSMutableString stringWithFormat:@"\t< %@: ", NSStringFromClass([self class])];

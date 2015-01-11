@@ -21,14 +21,11 @@
 - (instancetype)initWithSpecies:(NSString *)species name:(NSString *)name;
 + (instancetype)animalWithSpecies:(NSString *)species name:(NSString *)name;
 
-//- (void)prettyPrint;
-
 - (id)copyWithZone:(NSZone *)zone;
 - (BOOL)isEqual:(id)other;
 - (BOOL)isEqualToAnimal:(BaseAnimal *)animal;
 - (NSUInteger)hash;
 
 - (NSString *)description;
-
 
 @end

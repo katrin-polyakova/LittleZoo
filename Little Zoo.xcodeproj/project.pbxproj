@@ -21,6 +21,7 @@
 		321E4FC6C097667499806848 /* BaseAnimal.m in Sources */ = {isa = PBXBuildFile; fileRef = 321E4343C4C27B4D299FCD51 /* BaseAnimal.m */; };
 		321E4FEB7B8B9D5A5ED4D815 /* Vegetables.m in Sources */ = {isa = PBXBuildFile; fileRef = 321E4407441BDC8C3D49690A /* Vegetables.m */; };
 		4456080C1A43263B00D903CF /* GrazingTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 4456080B1A43263B00D903CF /* GrazingTest.m */; };
+		4459362C1A6270F400AE459B /* StringPlayTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4459362B1A6270F400AE459B /* StringPlayTests.m */; };
 		44D263C11A46DB0800AB12A9 /* CageTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 44D263C01A46DB0800AB12A9 /* CageTest.m */; };
 		44D263C21A46DB7100AB12A9 /* Cage.m in Sources */ = {isa = PBXBuildFile; fileRef = 321E459E3567C45F965125CC /* Cage.m */; };
 		44DBA9411A3D899B002E110A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 44DBA9401A3D899B002E110A /* main.m */; };
@@ -63,6 +64,7 @@
 		321E4F3514C76F7A56D9B7D0 /* Cable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Cable.h; sourceTree = "<group>"; };
 		321E4FB2C383E54A009A991D /* Rabbit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Rabbit.m; sourceTree = "<group>"; };
 		4456080B1A43263B00D903CF /* GrazingTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GrazingTest.m; sourceTree = "<group>"; };
+		4459362B1A6270F400AE459B /* StringPlayTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StringPlayTests.m; sourceTree = "<group>"; };
 		44D263C01A46DB0800AB12A9 /* CageTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CageTest.m; sourceTree = "<group>"; };
 		44DBA93B1A3D899A002E110A /* Little Zoo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Little Zoo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		44DBA93F1A3D899B002E110A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -187,6 +189,7 @@
 				44DBA96A1A3DA073002E110A /* PredatorTest.m */,
 				4456080B1A43263B00D903CF /* GrazingTest.m */,
 				44D263C01A46DB0800AB12A9 /* CageTest.m */,
+				4459362B1A6270F400AE459B /* StringPlayTests.m */,
 			);
 			path = "Little ZooTests";
 			sourceTree = "<group>";
@@ -351,6 +354,7 @@
 				44DBA96B1A3DA073002E110A /* PredatorTest.m in Sources */,
 				4456080C1A43263B00D903CF /* GrazingTest.m in Sources */,
 				321E4E04DDCBA1C4882E87E4 /* Grazing.m in Sources */,
+				4459362C1A6270F400AE459B /* StringPlayTests.m in Sources */,
 				44D263C21A46DB7100AB12A9 /* Cage.m in Sources */,
 				321E4969D02C68038BBC7FE6 /* Predator.m in Sources */,
 				321E440D4DEABE1CDF1D7827 /* Rabbit.m in Sources */,
