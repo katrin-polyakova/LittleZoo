@@ -277,7 +277,7 @@
     NSLog(@"Count of letter %@ is %d", targetChar, count);
 
 //    NSString *string = @"А-а-а, в Африке горы вот такой вышины!";
-//    unichar targetChar = '\0430';
+//    unichar targetChar = 'а';
 //    NSUInteger count = 0;
 //
 //    for(NSUInteger i=0; i<string.length; i++){
